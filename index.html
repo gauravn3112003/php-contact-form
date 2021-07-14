@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <img src="image.svg" alt="">
+        </div>
+        <div class="right">
+            <h4>Contact Form</h4>
+            <form action="email.php" method="POST">
+                <div class="input-type">
+                    <input type="text" name="Name" required class="input" placeholder="Enter your name" name="" id="">
+                </div>
+                <div class="input-type">
+                    <input type="email" name="E-mail" required class="input" name="" placeholder="Enter E-mail" id="">
+                </div>
+                <div class="input-type">
+                    <input type="text" name="Website" class="input" name="" placeholder="Enter your Website" id="">
+                </div>
+                <div class="input-type">
+                    <input type="number" name="Mobile" required class="input" name="" placeholder="Enter your mobile number" id="">
+                </div>
+                <div class="input-type">
+                    <textarea name="" name="Message" required class="input message" placeholder="Message..." id="" cols="30" rows="5"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit" class="btn-submit" value="Submit">
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>
